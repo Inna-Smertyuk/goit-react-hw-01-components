@@ -1,0 +1,70 @@
+ body {
+     background: radial-gradient(#edf1cf, #43acb4);
+ }
+ 
+ .profile {
+     max-width: 450px;
+     margin: 30px auto 30px;
+     padding: 20px;
+     border-radius: 20px;
+     background: rgb(135, 196, 186);
+     box-shadow: 0px 0px 19px 9px rgba(13, 88, 69, 0.42);
+ }
+ 
+ .description {
+     text-align: center;
+ }
+ 
+ .avatar {
+     width: 250px;
+     margin-top: 15px;
+     border-radius: 50%;
+     box-shadow: 0px 0px 19px 9px rgba(13, 88, 69, 0.42);
+     background-color: #c5ecdbf1;
+ }
+ 
+ .name {
+     font-size: 36px;
+     font-weight: 700;
+     margin: 0;
+     padding-bottom: 10px;
+ }
+ 
+ .tag,
+ .location {
+     font-size: 18px;
+     font-weight: 600;
+     margin: 0;
+     padding-bottom: 5px;
+     color: rgb(97, 96, 96);
+ }
+ 
+ .stats {
+     display: flex;
+     justify-content: space-around;
+     /*margin: 10px auto 0px;*/
+     padding: 0;
+     list-style: none;
+ }
+ 
+ .statsItem {
+     display: flex;
+     flex-wrap: wrap;
+     max-width: 80px;
+     padding: 10px;
+     justify-content: center;
+     background: rgba(194, 233, 218, 0.514);
+     box-shadow: 0px 0px 19px 9px rgba(13, 88, 69, 0.42);
+     border-bottom-left-radius: 20px;
+     border-top-right-radius: 20px;
+ }
+ 
+ .label {
+     font-size: 18px;
+     color: rgb(97, 96, 96);
+ }
+ 
+ .quantity {
+     font-size: 24px;
+     font-weight: 700;
+ }

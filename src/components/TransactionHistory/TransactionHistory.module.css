@@ -1,0 +1,26 @@
+.transaction {
+    width: 480px;
+    text-align: center;
+    margin: 30px auto 30px;
+    background-color: #c5ecdbf1;
+    border: 1px solid rgb(62, 145, 124);
+    box-shadow: 0px 0px 19px 9px rgba(13, 88, 69, 0.42);
+}
+
+tr:nth-child(2n) {
+    background-color: rgb(230, 247, 247);
+}
+
+.title {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    background-color: rgb(104, 170, 159);
+    border: 1px solid rgb(62, 145, 124);
+    color: #fff;
+}
+
+.item {
+    border: 1px solid rgb(62, 145, 124);
+    padding: 5px;
+}
